@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barber Shop</title>
+    <link rel="stylesheet" href="index.css"/>
 </head>
 <body>
     <nav>
@@ -12,16 +13,21 @@
       <a href="#pricing">Pricing</a>
       <a href="#media">Media</a>
       <a href="#about">About Us</a>
-      <a href="#contact">Contact</a>
+      <a href="#contact">Contact</a>     
     </nav>
 
    <!--Hero-->
-    <section>
+    <section class="hero">
         <h1>Welcome to Barber Shop</h1>
         <img src="./logo.png" alt="logo"/>
+    </section>
+
+    <!-- Sub hero section -->
+    <section class="sub-hero">
         <h2>
-            More than just a haircut, we're your partner in crafting
-            a signature look that reflects your unique personality.
+            More than just a haircut, we're your partner in
+            <span>crafting a signature look</span>
+            that reflects your unique personality.
         </h2>
         <img src="./barbing.jpeg" alt="barbing">
     </section>
@@ -75,7 +81,7 @@
     <!--Media-->
     <section id="media">
         <h2>Have fun while we make you beautiful</h2>
-        <h2>Listen to nature</h2>
+        <h4>Listen to nature</h4>
         <audio src="./audio.ogg" controls></audio>
         <h4>Watch movie</h4>
         <video src="./video.mp4" controls></video>
@@ -104,16 +110,10 @@
         <form>
             <label>Name</label>
             <input />
-            <br/>
-            <br/>
             <label>Address</label>
             <input />
-            <br/>
-            <br/>
             <label>Other Details</label>
             <textarea></textarea>
-            <br/>
-            <br/>
             <button>Submit</button>
         </form>
         <h3>QR</h3>
